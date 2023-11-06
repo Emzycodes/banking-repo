@@ -1,8 +1,8 @@
 # A SIMPLE BANKING SYSTEM
 class BankAccount:
+    """ This block contains the public account opening detailis"""
     def __init__(self,account_name,account_type,account_number):
 
-        """ This block contains the public account opening detailis"""
         self.name = account_name
         self.type = account_type
         self.number = account_number
@@ -23,7 +23,7 @@ class BankAccount:
 
     def getbalance(self):
         balance = self.balance
-        return f' Account Name : {self.name}\n Account Number : {self.number}\n Balance : ${balance}'
+        return balance
 
 
 
