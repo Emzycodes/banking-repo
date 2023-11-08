@@ -23,6 +23,5 @@ class BankAccount:
         balance = self.balance
         return balance
 
-
-
+my_account = BankAccount("John Doe", "1234567890")
         
