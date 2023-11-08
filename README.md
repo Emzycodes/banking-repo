@@ -5,8 +5,11 @@ The "Simple Banking System" is a Python class that simulates basic banking opera
 
 ## Features
 **- Account Creation**: Users can create bank accounts with a specified account name and number.
+
 **- Deposit Funds**: Account holders can deposit funds into their accounts.
+
 **- Account Balance**: Check the account balance at any time.
+
 ## Usage
 
 To use the Simple Banking System, follow these steps:
