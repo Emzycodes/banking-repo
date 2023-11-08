@@ -4,9 +4,9 @@
 The "Simple Banking System" is a Python class that simulates basic banking operations. It allows users to create bank accounts, make deposits, and check their account balances. This simple system serves as a foundation for understanding fundamental concepts in banking and account management.
 
 ## Features
--**Account Creation**: Users can create bank accounts with a specified account name and number.
--**Deposit Funds**: Account holders can deposit funds into their accounts.
--**Account Balance**: Check the account balance at any time.
+**- Account Creation**: Users can create bank accounts with a specified account name and number.
+**- Deposit Funds**: Account holders can deposit funds into their accounts.
+**- Account Balance**: Check the account balance at any time.
 ## Usage
 
 To use the Simple Banking System, follow these steps:
@@ -27,4 +27,8 @@ my_account.deposit(1000)
 # Check account balance
 balance = my_account.getbalance()
 print(f"Account Balance: ${balance}")
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
 
