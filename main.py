@@ -1,10 +1,9 @@
 # A SIMPLE BANKING SYSTEM
 class BankAccount:
     """ This block contains the public account opening detailis"""
-    def __init__(self,account_name,account_type,account_number):
+    def __init__(self,account_name,account_number):
 
         self.name = account_name
-        self.type = account_type
         self.number = account_number
         self.limit = 1000000
         self.balance = 0 #the opening acct balance
@@ -15,7 +14,6 @@ class BankAccount:
         self.amount = amount
         if amount > self.minimum and amount <= self.limit:
             self.balance += amount
-            return f'Your account {self.number} has been credited with {amount}'
         elif amount < self.minimum:
             raise ValueError("The amount is too small")
         else:
